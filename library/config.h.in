@@ -1,0 +1,7 @@
+// Expands to:
+//   #define HEADER_CONFIG_OPTION
+// if HEADER_CONFIG_OPTION is true
+// else:
+//   /* #undef HEADER_CONFIG_OPTION */
+
+#cmakedefine HEADER_CONFIG_OPTION
